@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/qmz9mg/vae/practice/wandb/test_wandb.py", line 74, in <module>
+    network = Network().to(device)
+NameError: name 'device' is not defined

@@ -1,0 +1,241 @@
+/home/qmz9mg/.conda/envs/vae/lib/python3.10/site-packages/torch/utils/data/dataloader.py:558: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+  0%|                                                                       | 0/50 [00:00<?, ?it/s]
+ConvNet(
+  (layer1): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (fc): Linear(in_features=1568, out_features=10, bias=True)
+  2%|█▎                                                             | 1/50 [00:04<03:46,  4.62s/it]/home/qmz9mg/.conda/envs/vae/lib/python3.10/site-packages/torch/utils/data/dataloader.py:558: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Loss after 03072 examples: 0.967
+Loss after 06272 examples: 0.449
+Loss after 09472 examples: 0.475
+Loss after 12640 examples: 0.200
+Loss after 15840 examples: 0.259
+Loss after 19040 examples: 0.157
+  4%|██▌                                                            | 2/50 [00:06<02:10,  2.72s/it]
+Loss after 22240 examples: 0.122
+Loss after 25408 examples: 0.139
+Loss after 28608 examples: 0.117
+Loss after 31808 examples: 0.096
+
+  8%|█████                                                          | 4/50 [00:08<01:25,  1.86s/it]
+Loss after 38176 examples: 0.166
+Loss after 41376 examples: 0.159
+Loss after 44576 examples: 0.227
+Loss after 47776 examples: 0.059
+
+ 10%|██████▎                                                        | 5/50 [00:10<01:17,  1.73s/it]
+Loss after 54144 examples: 0.074
+Loss after 57344 examples: 0.050
+Loss after 60512 examples: 0.042
+Loss after 63712 examples: 0.094
+
+ 14%|████████▊                                                      | 7/50 [00:13<01:08,  1.59s/it]
+Loss after 70112 examples: 0.094
+Loss after 73280 examples: 0.033
+Loss after 76480 examples: 0.029
+Loss after 79680 examples: 0.041
+
+ 16%|██████████                                                     | 8/50 [00:14<01:04,  1.54s/it]
+Loss after 86048 examples: 0.026
+Loss after 89248 examples: 0.017
+Loss after 92448 examples: 0.050
+Loss after 95648 examples: 0.108
+Loss after 98816 examples: 0.021
+
+ 18%|███████████▎                                                   | 9/50 [00:16<01:00,  1.48s/it]
+Loss after 105216 examples: 0.020
+Loss after 108384 examples: 0.037
+Loss after 111584 examples: 0.027
+Loss after 114784 examples: 0.088
+
+ 22%|█████████████▋                                                | 11/50 [00:19<00:57,  1.46s/it]
+Loss after 121152 examples: 0.015
+Loss after 124352 examples: 0.023
+Loss after 127552 examples: 0.039
+Loss after 130752 examples: 0.035
+
+ 24%|██████████████▉                                               | 12/50 [00:20<00:54,  1.43s/it]
+Loss after 137120 examples: 0.028
+Loss after 140320 examples: 0.012
+Loss after 143520 examples: 0.057
+Loss after 146688 examples: 0.017
+
+ 28%|█████████████████▎                                            | 14/50 [00:23<00:51,  1.44s/it]
+Loss after 153088 examples: 0.024
+Loss after 156256 examples: 0.039
+Loss after 159456 examples: 0.006
+Loss after 162656 examples: 0.018
+Loss after 165856 examples: 0.046
+
+ 30%|██████████████████▌                                           | 15/50 [00:24<00:51,  1.47s/it]
+Loss after 172224 examples: 0.015
+Loss after 175424 examples: 0.006
+Loss after 178624 examples: 0.008
+Loss after 181792 examples: 0.003
+
+ 32%|███████████████████▊                                          | 16/50 [00:26<00:48,  1.44s/it]
+Loss after 188192 examples: 0.013
+Loss after 191392 examples: 0.024
+Loss after 194560 examples: 0.020
+Loss after 197760 examples: 0.006
+
+ 36%|██████████████████████▎                                       | 18/50 [00:29<00:47,  1.48s/it]
+Loss after 204128 examples: 0.006
+Loss after 207328 examples: 0.013
+Loss after 210528 examples: 0.010
+Loss after 213728 examples: 0.012
+
+ 38%|███████████████████████▌                                      | 19/50 [00:30<00:44,  1.45s/it]
+Loss after 220096 examples: 0.010
+Loss after 223296 examples: 0.008
+Loss after 226496 examples: 0.008
+Loss after 229664 examples: 0.047
+
+ 40%|████████████████████████▊                                     | 20/50 [00:32<00:44,  1.49s/it]
+Loss after 236064 examples: 0.018
+Loss after 239264 examples: 0.008
+Loss after 242432 examples: 0.007
+Loss after 245632 examples: 0.008
+Loss after 248832 examples: 0.003
+
+ 44%|███████████████████████████▎                                  | 22/50 [00:34<00:39,  1.42s/it]
+Loss after 255200 examples: 0.001
+Loss after 258400 examples: 0.020
+Loss after 261600 examples: 0.012
+Loss after 264768 examples: 0.001
+
+ 46%|████████████████████████████▌                                 | 23/50 [00:36<00:39,  1.47s/it]
+Loss after 271168 examples: 0.008
+Loss after 274368 examples: 0.003
+Loss after 277536 examples: 0.003
+Loss after 280736 examples: 0.009
+
+ 50%|███████████████████████████████                               | 25/50 [00:39<00:36,  1.45s/it]
+Loss after 287136 examples: 0.017
+Loss after 290304 examples: 0.001
+Loss after 293504 examples: 0.014
+Loss after 296704 examples: 0.003
+
+ 52%|████████████████████████████████▏                             | 26/50 [00:40<00:34,  1.45s/it]
+Loss after 303072 examples: 0.001
+Loss after 306272 examples: 0.006
+Loss after 309472 examples: 0.007
+Loss after 312640 examples: 0.002
+
+ 54%|█████████████████████████████████▍                            | 27/50 [00:42<00:33,  1.44s/it]
+Loss after 319040 examples: 0.004
+Loss after 322240 examples: 0.005
+Loss after 325408 examples: 0.001
+Loss after 328608 examples: 0.001
+Loss after 331808 examples: 0.005
+
+ 58%|███████████████████████████████████▉                          | 29/50 [00:45<00:30,  1.44s/it]
+Loss after 338176 examples: 0.001
+Loss after 341376 examples: 0.001
+Loss after 344576 examples: 0.003
+Loss after 347776 examples: 0.003
+
+ 60%|█████████████████████████████████████▏                        | 30/50 [00:46<00:28,  1.44s/it]
+Loss after 354144 examples: 0.001
+Loss after 357344 examples: 0.001
+Loss after 360512 examples: 0.000
+Loss after 363712 examples: 0.001
+
+ 64%|███████████████████████████████████████▋                      | 32/50 [00:49<00:25,  1.43s/it]
+Loss after 370112 examples: 0.001
+Loss after 373280 examples: 0.001
+Loss after 376480 examples: 0.000
+Loss after 379680 examples: 0.001
+
+ 66%|████████████████████████████████████████▉                     | 33/50 [00:50<00:24,  1.45s/it]
+Loss after 386048 examples: 0.001
+Loss after 389248 examples: 0.000
+Loss after 392448 examples: 0.000
+Loss after 395648 examples: 0.001
+Loss after 398816 examples: 0.001
+
+ 68%|██████████████████████████████████████████▏                   | 34/50 [00:52<00:23,  1.44s/it]
+Loss after 405216 examples: 0.000
+Loss after 408384 examples: 0.001
+Loss after 411584 examples: 0.000
+Loss after 414784 examples: 0.000
+
+ 72%|████████████████████████████████████████████▋                 | 36/50 [00:55<00:20,  1.47s/it]
+Loss after 421152 examples: 0.001
+Loss after 424352 examples: 0.000
+Loss after 427552 examples: 0.003
+Loss after 430752 examples: 0.002
+
+ 74%|█████████████████████████████████████████████▉                | 37/50 [00:56<00:18,  1.46s/it]
+Loss after 437120 examples: 0.000
+Loss after 440320 examples: 0.000
+Loss after 443520 examples: 0.003
+Loss after 446688 examples: 0.000
+
+ 76%|███████████████████████████████████████████████               | 38/50 [00:58<00:18,  1.50s/it]
+Loss after 453088 examples: 0.011
+Loss after 456256 examples: 0.086
+Loss after 459456 examples: 0.005
+Loss after 462656 examples: 0.002
+
+ 80%|█████████████████████████████████████████████████▌            | 40/50 [01:01<00:14,  1.43s/it]
+Loss after 469024 examples: 0.005
+Loss after 472224 examples: 0.014
+Loss after 475424 examples: 0.009
+Loss after 478624 examples: 0.012
+
+ 82%|██████████████████████████████████████████████████▊           | 41/50 [01:02<00:13,  1.47s/it]
+Loss after 484992 examples: 0.001
+Loss after 488192 examples: 0.001
+Loss after 491392 examples: 0.003
+Loss after 494560 examples: 0.001
+Loss after 497760 examples: 0.003
+
+ 86%|█████████████████████████████████████████████████████▎        | 43/50 [01:05<00:10,  1.45s/it]
+Loss after 504128 examples: 0.002
+Loss after 507328 examples: 0.000
+Loss after 510528 examples: 0.002
+Loss after 513728 examples: 0.001
+
+ 88%|██████████████████████████████████████████████████████▌       | 44/50 [01:07<00:08,  1.46s/it]
+Loss after 520096 examples: 0.000
+Loss after 523296 examples: 0.000
+Loss after 526496 examples: 0.001
+Loss after 529664 examples: 0.000
+
+ 90%|███████████████████████████████████████████████████████▊      | 45/50 [01:08<00:07,  1.44s/it]
+Loss after 536064 examples: 0.000
+Loss after 539264 examples: 0.001
+Loss after 542432 examples: 0.000
+Loss after 545632 examples: 0.001
+
+ 94%|██████████████████████████████████████████████████████████▎   | 47/50 [01:11<00:04,  1.46s/it]
+Loss after 552000 examples: 0.005
+Loss after 555200 examples: 0.001
+Loss after 558400 examples: 0.005
+Loss after 561600 examples: 0.000
+
+ 96%|███████████████████████████████████████████████████████████▌  | 48/50 [01:12<00:02,  1.44s/it]
+Loss after 567968 examples: 0.000
+Loss after 571168 examples: 0.000
+Loss after 574368 examples: 0.000
+Loss after 577536 examples: 0.000
+Loss after 580736 examples: 0.001
+
+100%|██████████████████████████████████████████████████████████████| 50/50 [01:15<00:00,  1.51s/it]
+Loss after 587136 examples: 0.000
+Loss after 590304 examples: 0.000
+Loss after 593504 examples: 0.000
+Loss after 596704 examples: 0.000
+Loss after 599904 examples: 0.001
+Accuracy of the model on the 2000 test images: 98.200000%

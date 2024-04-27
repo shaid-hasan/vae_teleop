@@ -1,0 +1,39 @@
+/home/qmz9mg/.conda/envs/vae/lib/python3.10/site-packages/torch/utils/data/dataloader.py:558: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+  0%|                                                                        | 0/5 [00:00<?, ?it/s]
+ConvNet(
+  (layer1): Sequential(
+    (0): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (layer2): Sequential(
+    (0): Conv2d(16, 32, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (1): ReLU()
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (fc): Linear(in_features=1568, out_features=10, bias=True)
+)
+Loss after 03072 examples: 0.347
+ 20%|████████████▊                                                   | 1/5 [00:08<00:32,  8.01s/it]/home/qmz9mg/.conda/envs/vae/lib/python3.10/site-packages/torch/utils/data/dataloader.py:558: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Loss after 09472 examples: 0.114
+Loss after 12640 examples: 0.128
+Loss after 15840 examples: 0.105
+Loss after 19040 examples: 0.166
+Loss after 22240 examples: 0.052
+ 60%|██████████████████████████████████████▍                         | 3/5 [00:11<00:05,  2.95s/it]
+Loss after 25408 examples: 0.069
+Loss after 28608 examples: 0.059
+Loss after 31808 examples: 0.050
+Loss after 35008 examples: 0.022
+
+ 80%|███████████████████████████████████████████████████▏            | 4/5 [00:12<00:02,  2.38s/it]
+Loss after 41376 examples: 0.066
+Loss after 44576 examples: 0.065
+Loss after 47776 examples: 0.050
+Loss after 50944 examples: 0.004
+
+100%|████████████████████████████████████████████████████████████████| 5/5 [00:14<00:00,  2.80s/it]
+Loss after 57344 examples: 0.015
+Accuracy of the model on the 2000 test images: 97.950000%

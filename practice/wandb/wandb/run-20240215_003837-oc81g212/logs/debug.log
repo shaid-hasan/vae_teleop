@@ -1,0 +1,26 @@
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_setup.py:_flush():76] Configure stats pid to 208316
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_setup.py:_flush():76] Loading settings from /home/qmz9mg/.config/wandb/settings
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_setup.py:_flush():76] Loading settings from /sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/settings
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test_wandb.py', 'program_abspath': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb/test_wandb.py', 'program': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb/test_wandb.py'}
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_init.py:_log_setup():526] Logging user logs to /sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/run-20240215_003837-oc81g212/logs/debug.log
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_init.py:_log_setup():527] Logging internal logs to /sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/run-20240215_003837-oc81g212/logs/debug-internal.log
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_init.py:init():566] calling init triggers
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_init.py:init():616] starting backend
+2024-02-15 00:38:37,994 INFO    MainThread:208316 [wandb_init.py:init():620] setting up manager
+2024-02-15 00:38:38,001 INFO    MainThread:208316 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-15 00:38:38,005 INFO    MainThread:208316 [wandb_init.py:init():628] backend started and connected
+2024-02-15 00:38:38,018 INFO    MainThread:208316 [wandb_init.py:init():720] updated telemetry
+2024-02-15 00:38:38,021 INFO    MainThread:208316 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-15 00:38:38,186 ERROR   MainThread:208316 [wandb_init.py:init():779] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-02-15 00:38:38,305 ERROR   MainThread:208316 [wandb_init.py:init():1194] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "/home/qmz9mg/.conda/envs/vae/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "/home/qmz9mg/.conda/envs/vae/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 785, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-02-15 00:38:39,307 WARNING MsgRouterThr:208316 [router.py:message_loop():77] message_loop has been closed

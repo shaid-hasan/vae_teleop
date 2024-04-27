@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/qmz9mg/vae/practice/wandb/test_wandb.py", line 77, in <module>
+    optimizer = optim.Adam(network.parameters(), wandb.config.lr)
+NameError: name 'optim' is not defined

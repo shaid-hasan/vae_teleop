@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/qmz9mg/vae/practice/wandb/test_wandb.py", line 83, in <module>
+    start_time = time.time()
+NameError: name 'time' is not defined

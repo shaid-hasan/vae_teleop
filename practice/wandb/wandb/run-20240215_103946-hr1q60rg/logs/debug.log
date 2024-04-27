@@ -1,0 +1,34 @@
+2024-02-15 10:39:46,353 INFO    Thread-34 (_run_job):155135 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_setup.py:_flush():76] Configure stats pid to 155135
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_setup.py:_flush():76] Loading settings from /home/qmz9mg/.config/wandb/settings
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_setup.py:_flush():76] Loading settings from /sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/settings
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'sweeps-demo', 'entity': 'qmz9mg', 'root_dir': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb', 'run_id': 'hr1q60rg', 'sweep_param_path': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/sweep-36mjcspk/config-hr1q60rg.yaml', 'sweep_id': '36mjcspk'}
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'sweep_test_grid_search.py', 'program_abspath': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb/sweep_test_grid_search.py', 'program': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb/sweep_test_grid_search.py'}
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_init.py:_log_setup():526] Logging user logs to /sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/run-20240215_103946-hr1q60rg/logs/debug.log
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_init.py:_log_setup():527] Logging internal logs to /sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/run-20240215_103946-hr1q60rg/logs/debug-internal.log
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_init.py:init():566] calling init triggers
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_init.py:init():573] wandb.init called with sweep_config: {'batch_size': 32, 'dropout': 0.3, 'epochs': 10, 'fc_layer_size': 256, 'learning_rate': 0.1, 'optimizer': 'adam'}
+config: {}
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_init.py:init():616] starting backend
+2024-02-15 10:39:46,354 INFO    Thread-34 (_run_job):155135 [wandb_init.py:init():620] setting up manager
+2024-02-15 10:39:46,361 INFO    Thread-34 (_run_job):155135 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-15 10:39:46,362 INFO    Thread-34 (_run_job):155135 [wandb_init.py:init():628] backend started and connected
+2024-02-15 10:39:46,377 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_config_callback():1343] config_cb None None {'batch_size': 32, 'dropout': 0.3, 'epochs': 10, 'fc_layer_size': 256, 'learning_rate': 0.1, 'optimizer': 'adam'}
+2024-02-15 10:39:46,378 INFO    Thread-34 (_run_job):155135 [wandb_init.py:init():720] updated telemetry
+2024-02-15 10:39:46,381 INFO    Thread-34 (_run_job):155135 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-15 10:39:46,555 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-15 10:39:46,616 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_on_init():2271] got version response 
+2024-02-15 10:39:46,616 INFO    Thread-34 (_run_job):155135 [wandb_init.py:init():804] starting run threads in backend
+2024-02-15 10:39:49,283 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-15 10:39:49,284 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-15 10:39:49,284 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-15 10:39:49,284 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-15 10:39:49,285 INFO    Thread-34 (_run_job):155135 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-15 10:40:16,244 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_finish():1970] finishing run qmz9mg/sweeps-demo/hr1q60rg
+2024-02-15 10:40:16,244 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-15 10:40:16,245 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_restore():2193] restore
+2024-02-15 10:40:16,245 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_restore():2199] restore done
+2024-02-15 10:40:18,675 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-15 10:40:18,676 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-15 10:40:18,683 INFO    Thread-34 (_run_job):155135 [wandb_run.py:_footer_sync_info():3825] logging synced files

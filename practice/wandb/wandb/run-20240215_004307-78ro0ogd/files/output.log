@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/sfs/weka/scratch/qmz9mg/vae/practice/wandb/test_wandb.py", line 87, in <module>
+    loss_valid, acc_valid = validate(network, epoch, criterion, testloader)
+NameError: name 'train' is not defined

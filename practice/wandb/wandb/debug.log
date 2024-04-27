@@ -1,0 +1,27 @@
+2024-02-15 10:40:22,558 INFO    Thread-37 (_run_job):155135 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-15 10:40:22,558 INFO    Thread-37 (_run_job):155135 [wandb_setup.py:_flush():76] Configure stats pid to 155135
+2024-02-15 10:40:22,558 INFO    Thread-37 (_run_job):155135 [wandb_setup.py:_flush():76] Loading settings from /home/qmz9mg/.config/wandb/settings
+2024-02-15 10:40:22,558 INFO    Thread-37 (_run_job):155135 [wandb_setup.py:_flush():76] Loading settings from /sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/settings
+2024-02-15 10:40:22,558 INFO    Thread-37 (_run_job):155135 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'sweeps-demo', 'entity': 'qmz9mg', 'root_dir': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb', 'run_id': 'hnkx6676', 'sweep_param_path': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/sweep-36mjcspk/config-hnkx6676.yaml', 'sweep_id': '36mjcspk'}
+2024-02-15 10:40:22,558 INFO    Thread-37 (_run_job):155135 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-15 10:40:22,558 INFO    Thread-37 (_run_job):155135 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'sweep_test_grid_search.py', 'program_abspath': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb/sweep_test_grid_search.py', 'program': '/sfs/weka/scratch/qmz9mg/vae/practice/wandb/sweep_test_grid_search.py'}
+2024-02-15 10:40:22,558 INFO    Thread-37 (_run_job):155135 [wandb_init.py:_log_setup():526] Logging user logs to /sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/run-20240215_104022-hnkx6676/logs/debug.log
+2024-02-15 10:40:22,559 INFO    Thread-37 (_run_job):155135 [wandb_init.py:_log_setup():527] Logging internal logs to /sfs/weka/scratch/qmz9mg/vae/practice/wandb/wandb/run-20240215_104022-hnkx6676/logs/debug-internal.log
+2024-02-15 10:40:22,559 INFO    Thread-37 (_run_job):155135 [wandb_init.py:init():566] calling init triggers
+2024-02-15 10:40:22,559 INFO    Thread-37 (_run_job):155135 [wandb_init.py:init():573] wandb.init called with sweep_config: {'batch_size': 32, 'dropout': 0.3, 'epochs': 10, 'fc_layer_size': 256, 'learning_rate': 0.1, 'optimizer': 'sgd'}
+config: {}
+2024-02-15 10:40:22,559 INFO    Thread-37 (_run_job):155135 [wandb_init.py:init():616] starting backend
+2024-02-15 10:40:22,559 INFO    Thread-37 (_run_job):155135 [wandb_init.py:init():620] setting up manager
+2024-02-15 10:40:22,567 INFO    Thread-37 (_run_job):155135 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-15 10:40:22,568 INFO    Thread-37 (_run_job):155135 [wandb_init.py:init():628] backend started and connected
+2024-02-15 10:40:22,585 INFO    Thread-37 (_run_job):155135 [wandb_run.py:_config_callback():1343] config_cb None None {'batch_size': 32, 'dropout': 0.3, 'epochs': 10, 'fc_layer_size': 256, 'learning_rate': 0.1, 'optimizer': 'sgd'}
+2024-02-15 10:40:22,586 INFO    Thread-37 (_run_job):155135 [wandb_init.py:init():720] updated telemetry
+2024-02-15 10:40:22,589 INFO    Thread-37 (_run_job):155135 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-15 10:40:22,787 INFO    Thread-37 (_run_job):155135 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-15 10:40:22,896 INFO    Thread-37 (_run_job):155135 [wandb_run.py:_on_init():2271] got version response 
+2024-02-15 10:40:22,896 INFO    Thread-37 (_run_job):155135 [wandb_init.py:init():804] starting run threads in backend
+2024-02-15 10:40:25,537 INFO    Thread-37 (_run_job):155135 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-15 10:40:25,538 INFO    Thread-37 (_run_job):155135 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-15 10:40:25,538 INFO    Thread-37 (_run_job):155135 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-15 10:40:25,538 INFO    Thread-37 (_run_job):155135 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-15 10:40:25,539 INFO    Thread-37 (_run_job):155135 [wandb_init.py:init():847] run started, returning control to user process
